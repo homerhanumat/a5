@@ -1,0 +1,42 @@
+/*************************************
+*
+*  Homer White
+*  ICT 4570, Assignment 5
+*  Rudimentary styles
+*  a5.css
+*
+**************************************/
+
+body {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+p {
+    padding-bottom: 5px;
+}
+
+canvas {
+    display: block;
+    margin: 10px auto 0 auto;
+    background-color: #bbb;
+}
+
+#warning {
+    visibility: hidden;
+}
+
+
+#warning.active {
+    visibility: visible;
+}
+
+#filler {
+    visibility:  hidden;
+    height: 30px;
+}

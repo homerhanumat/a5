@@ -1,0 +1,46 @@
+<!doctype html>
+<!--
+    Assignment 5
+    Homer White
+    a5.html
+-->
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Assignment 5</title>
+    <link rel="stylesheet" href="a5.css">
+</head>
+
+<body>
+
+    <h1 id="title">Rectangles in Top Form</h1>
+    <p>Click and drag in the canvas area to create a rectangle.
+    Its dimensions and area will be shown below.  Click inside
+    the canvas to erase the rectangle, then repeat as desired.</p>
+
+    <p>Alternatively, you may provide values for length and width
+    in the appropriate input-fields.  A rectangle will be drawn
+    for you.</p>
+
+    <form>
+        <div class="inputs">
+            <label for="width">Width: </label>
+            <input id="width" type="number" step=1 min="0">
+            <label for="height">Height: </label>
+            <input id="height" type="number" step=1 min="0">
+        </div>
+        <p id="warning"></p>
+        <div>
+            <label for="area">Area:  </label>
+            <output id="area"></output>
+        </div>
+    </form>
+
+    <canvas id="field" width="" height=""></canvas>
+
+    <div id="filler"></div>
+
+    <script src="a5.js"></script>
+
+</body>
+</html>
