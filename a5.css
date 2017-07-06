@@ -13,7 +13,6 @@ body {
 }
 
 h1 {
-    margin-bottom: 20px;
     text-align: center;
 }
 
@@ -23,8 +22,8 @@ p {
 
 canvas {
     display: block;
-    margin: 10px auto 0 auto;
     background-color: #bbb;
+    margin: 10px auto 0 auto;
 }
 
 #warning {
@@ -39,4 +38,10 @@ canvas {
 #filler {
     visibility:  hidden;
     height: 30px;
+}
+
+output {
+    display:  inline-block;
+    width: 50px;
+    margin-right: 30px;
 }
